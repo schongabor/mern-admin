@@ -1,0 +1,33 @@
+.SideNav {
+    position: fixed;
+    z-index: 1;
+    top: 50px;
+    bottom: 0px;
+    left: 0px;
+    width: 200px;
+    background-color:#ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12.5px;
+    overflow: auto;
+}
+
+a {
+    color: #37474f;
+}
+
+::-webkit-scrollbar {
+    display: none;
+  }
+
+.side-nav-ul {
+    padding-top: 10px;
+}
+
+.aaa {
+    left: 5px;
+
+}
+
+.bbb {
+    display: none;
+}

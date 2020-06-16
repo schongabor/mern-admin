@@ -1,0 +1,52 @@
+.TopNav {
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 50px;
+    background-color: #37474f;
+    color: #e9e9e9;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.logo {
+    position: relative;
+    float: left;
+    height: 50px;
+    top: 10px;
+    left: 20px;
+    color: #e9e9e9;
+}
+
+.brand {
+    position: relative;
+    float: left;
+    font-size: 30px;
+    top: 10px;
+    left: 30px;
+    color: #e9e9e9;
+}
+
+.brand:hover {
+    color: #e9e9e9;
+    text-decoration: none;
+    font-size: 32px;
+    top: 9px;
+    left: 29px;
+}
+
+.top-menu-elements {
+    float: right;
+    padding: 12px 10px;
+    color: #e9e9e9;
+}
+
+.top-nav:hover {
+    font-size: 30px;
+    margin-top: -3px;
+}

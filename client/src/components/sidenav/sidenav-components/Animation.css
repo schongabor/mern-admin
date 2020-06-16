@@ -1,0 +1,61 @@
+
+/* This fires as soon as the element enters the DOM*/
+.dropdown-enter {
+/*We give the list the initial dimension of the list button*/
+    top: 0;
+    width: 200px;
+    max-height: 0px;
+    /* color: transparent; */
+    /* background-color: #5a564c; */
+}
+
+/* This is where we can add the transition*/
+.dropdown-enter-active {
+    top: 40px;
+    width: 200px;
+    max-height: 120px;
+    /* background-color: #e9e9e9; */
+    transition: all 200ms;
+}
+
+/* This fires as soon as the this.state.showList is false */
+.dropdown-exit {
+    top: 45px;
+    width: 200px;
+    max-height: 120px;
+    /* background-color: #e9e9e9; */
+}
+
+/* fires as element leaves the DOM*/
+.dropdown-exit-active {
+    top: 0;
+    width: 200px;
+    max-height: 0px;
+    color: transparent;
+    /* background-color: #5a564c; */
+    transition: all 200ms;
+}
+
+
+
+
+.dropdown0-enter {
+    opacity: 0;
+    transition: 1s;
+}
+  
+.dropdown0-enter.dropdown0-enter-active {
+    opacity: 1;
+    transition: 1s;
+}
+  
+.dropdown0-leave {
+    opacity: 1;
+    transition: 1s; 
+}
+  
+.dropdown0-leave.dropdown0-leave-active {
+    opacity: 0; 
+    transition: 1s;
+}
+  

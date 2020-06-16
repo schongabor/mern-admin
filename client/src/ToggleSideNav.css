@@ -1,0 +1,14 @@
+.side-nav-toggle-btn {
+    position: fixed;
+    z-index: 1;
+    top: 70px;
+    left: 200px;
+    background-color: #ffffff;
+    border-radius: 0 7px 7px 0;
+}
+
+.side-nav-toggle-btn:hover {
+    top: 67px;
+    font-size: 30px;
+    cursor: pointer;
+}
